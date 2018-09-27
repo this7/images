@@ -1,0 +1,29 @@
+{
+    "name": "this7/images",
+    "description": "this7 PHP images class.",
+    "license": "MIT",
+    "homepage": "https://github.com/this7/images",
+    "keywords": [
+        "this7",
+        "php-images"
+    ],
+    "authors": [
+    {
+        "name": "Yan Tianzeng",
+        "email": "qinuoyun@qq.com",
+        "homepage": "http://www.ub-u7.com/"
+    }],
+    "require":
+    {
+        "php": ">=5.6.6",
+        "this7/config": "3.*.*",
+        "this7/logger": "3.*.*"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "this7\\images\\": "src"
+        }
+    }
+}
