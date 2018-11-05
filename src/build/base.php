@@ -72,10 +72,6 @@ class base {
         return $url;
     }
 
-    private function FunctionName($value = '') {
-        # code...
-    }
-
     /**
      * 图片检测
      *
